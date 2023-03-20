@@ -1,0 +1,86 @@
+
+#class01{
+    background-image: url(../src/assets/wallpaperbetter.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+#class01>div{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#class02{
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.container{
+    /* position: relative; */
+    background-color: rgba(17, 17, 53, 0.524);
+    border-radius: 20px;
+}
+.container::before{
+    /* opacity: 0.2; */
+    /* position: absolute; */
+}
+.container>div{
+   
+
+    display: flex;
+    width: 670px;
+    padding: 60px 0;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+#main{
+    line-height: 40px;
+}
+#class01>div>h1{
+  position: fixed;
+  color: #fff;
+  font-size: 65px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  left: 150px; top: 50px;
+  text-shadow:3px 3px 30px rgb(23, 229, 244)
+}
+Button{
+    margin-top: 20px;
+    font-size: 35px;
+    border: 3px solid #fff;
+    background-color: transparent;
+    width: 200px;
+    color: #fff;
+    padding: 4px 0;
+    text-shadow: 1px 1px 15px #eff92d;
+    font-family: 'Orbitron', sans-serif;
+}
+figure>img{
+    border: 3px solid #fff;
+    border-radius: 0%;
+    padding: 20px;
+}
+figure>figcaption{
+    margin-top: 40px;
+    background-color: black;
+    color: #fff;
+    height: 150px;
+    padding: 20px ;
+    font-size: 30px;
+}
+figure>figcaption>ul{
+    display: flex;
+    margin-bottom: 40px;
+}
+figure>figcaption>ul>li{
+    display: flex;
+}
+#team{
+    color: #fff;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
